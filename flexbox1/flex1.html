@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox1</title>
+    <script src="https://kit.fontawesome.com/f9265fe1bd.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+border: 0;
+}
+:root {
+box-sizing: border-box;
+}
+*,
+::before,
+::after {
+box-sizing: inherit;
+}
+:root {
+font-size: 0.785rem;
+font-family: "Rubik", sans-serif;
+--blue: #0d6efd;
+--indigo: #6610f2;
+--purple: #6f42c1;
+--pink: #d63384;
+--red: #dc3545;
+--orange: #fd7e14;
+--yellow: #ffc107;
+--green: #198754;
+--teal: #20c997;
+--cyan: #0dcaf0;
+--dark: #292a2b;
+}
+body {
+    background-color: rgb(29, 28, 28);
+}
+section {
+    width: 80%;
+    min-height: 100vh;
+    margin: 2em auto;
+    background-color: rgb(29, 29, 29);
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+div.box {
+width: 80%;
+border:  1px solid var(--orange);
+font-size: 1.1rem;
+border-radius: 0.3rem;
+}
+.card-content {
+    padding: 1.4em;
+}
+.image {
+    height: 50%;
+}
+.linkss {
+    padding: 1.5em 0 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+h2 {
+    color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0.2em;
+}
+h3 {
+    color: grey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 0.8em;
+}
+p {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.8em;
+    font-size: 1.1rem;
+}
+a {
+    border: 5px solid var(--orange);
+    color: var(--orange);
+    min-width: 40%;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a:first-of-type{
+    margin-right: 1em;
+}
+i {
+    margin-right: 0.4em;
+}
+
+    </style>
+</head>
+<body>
+    <section>
+        <div class="box">
+            <div class="imagen">
+                <img src="img/owl-ge373d1c5f_1280.jpg">
+            </div>
+            <div class="card-content">
+                <h2>Card title</h2>
+                <h3>Card subtitle</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa reiciendis autem numquam? Corporis, quia molestiae? Natus itaque asperiores explicabo! Distinctio blanditiis, natus velit itaque excepturi porro fuga repellat alias a?
+                </p>
+                <div class="links">
+                    <a href="#"><i class="fa-solid fa-link"></i> Visit Site </a>
+                    <a href="#"><i class="fa-brans fa-github"></i> Visit Site </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="box">
+            <div class="imagen">
+                <img src="img/owl-ge373d1c5f_1280.jpg">
+            </div>
+            <div class="card-content">
+                <h2>Card title</h2>
+                <h3>Card subtitle</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa reiciendis autem numquam? Corporis, quia molestiae? Natus itaque asperiores explicabo! Distinctio blanditiis, natus velit itaque excepturi porro fuga repellat alias a?
+                </p>
+                <div class="links">
+                    <a href="#"><i class="fa-solid fa-link"></i> Visit Site </a>
+                    <a href="#"><i class="fa-brans fa-github"></i> Visit Site </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="box">
+            <div class="imagen">
+                <img src="img/owl-ge373d1c5f_1280.jpg">
+            </div>
+            <div class="card-content">
+                <h2>Card title</h2>
+                <h3>Card subtitle</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa reiciendis autem numquam? Corporis, quia molestiae? Natus itaque asperiores explicabo! Distinctio blanditiis, natus velit itaque excepturi porro fuga repellat alias a?
+                </p>
+                <div class="links">
+                    <a href="#"><i class="fa-solid fa-link"></i> Visit Site </a>
+                    <a href="#"><i class="fa-brans fa-github"></i> Visit Site </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="box">
+            <div class="imagen">
+                <img src="img/owl-ge373d1c5f_1280.jpg">
+            </div>
+            <div class="card-content">
+                <h2>Card title</h2>
+                <h3>Card subtitle</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa reiciendis autem numquam? Corporis, quia molestiae? Natus itaque asperiores explicabo! Distinctio blanditiis, natus velit itaque excepturi porro fuga repellat alias a?
+                </p>
+                <div class="links">
+                    <a href="#"><i class="fa-solid fa-link"></i> Visit Site </a>
+                    <a href="#"><i class="fa-brans fa-github"></i> Visit Site </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="box">
+            <div class="imagen">
+                <img src="img/owl-ge373d1c5f_1280.jpg">
+            </div>
+            <div class="card-content">
+                <h2>Card title</h2>
+                <h3>Card subtitle</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa reiciendis autem numquam? Corporis, quia molestiae? Natus itaque asperiores explicabo! Distinctio blanditiis, natus velit itaque excepturi porro fuga repellat alias a?
+                </p>
+                <div class="links">
+                    <a href="#"><i class="fa-solid fa-link"></i> Visit Site </a>
+                    <a href="#"><i class="fa-brans fa-github"></i> Visit Site </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="box">
+            <div class="imagen">
+                <img src="img/owl-ge373d1c5f_1280.jpg">
+            </div>
+            <div class="card-content">
+                <h2>Card title</h2>
+                <h3>Card subtitle</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa reiciendis autem numquam? Corporis, quia molestiae? Natus itaque asperiores explicabo! Distinctio blanditiis, natus velit itaque excepturi porro fuga repellat alias a?
+                </p>
+                <div class="links">
+                    <a href="#"><i class="fa-solid fa-link"></i> Visit Site </a>
+                    <a href="#"><i class="fa-brans fa-github"></i> Visit Site </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="box">
+            <div class="imagen">
+                <img src="img/owl-ge373d1c5f_1280.jpg">
+            </div>
+            <div class="card-content">
+                <h2>Card title</h2>
+                <h3>Card subtitle</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa reiciendis autem numquam? Corporis, quia molestiae? Natus itaque asperiores explicabo! Distinctio blanditiis, natus velit itaque excepturi porro fuga repellat alias a?
+                </p>
+                <div class="links">
+                    <a href="#"><i class="fa-solid fa-link"></i> Visit Site </a>
+                    <a href="#"><i class="fa-brans fa-github"></i> Visit Site </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="box">
+            <div class="imagen">
+                <img src="img/owl-ge373d1c5f_1280.jpg">
+            </div>
+            <div class="card-content">
+                <h2>Card title</h2>
+                <h3>Card subtitle</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa reiciendis autem numquam? Corporis, quia molestiae? Natus itaque asperiores explicabo! Distinctio blanditiis, natus velit itaque excepturi porro fuga repellat alias a?
+                </p>
+                <div class="links">
+                    <a href="#"><i class="fa-solid fa-link"></i> Visit Site </a>
+                    <a href="#"><i class="fa-brans fa-github"></i> Visit Site </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="box">
+            <div class="imagen">
+                <img src="img/owl-ge373d1c5f_1280.jpg">
+            </div>
+            <div class="card-content">
+                <h2>Card title</h2>
+                <h3>Card subtitle</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa reiciendis autem numquam? Corporis, quia molestiae? Natus itaque asperiores explicabo! Distinctio blanditiis, natus velit itaque excepturi porro fuga repellat alias a?
+                </p>
+                <div class="links">
+                    <a href="#"><i class="fa-solid fa-link"></i> Visit Site </a>
+                    <a href="#"><i class="fa-brans fa-github"></i> Visit Site </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="box">
+            <div class="imagen">
+                <img src="img/owl-ge373d1c5f_1280.jpg">
+            </div>
+            <div class="card-content">
+                <h2>Card title</h2>
+                <h3>Card subtitle</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa reiciendis autem numquam? Corporis, quia molestiae? Natus itaque asperiores explicabo! Distinctio blanditiis, natus velit itaque excepturi porro fuga repellat alias a?
+                </p>
+                <div class="links">
+                    <a href="#"><i class="fa-solid fa-link"></i> Visit Site </a>
+                    <a href="#"><i class="fa-brans fa-github"></i> Visit Site </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="box">
+            <div class="imagen">
+                <img src="img/owl-ge373d1c5f_1280.jpg">
+            </div>
+            <div class="card-content">
+                <h2>Card title</h2>
+                <h3>Card subtitle</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa reiciendis autem numquam? Corporis, quia molestiae? Natus itaque asperiores explicabo! Distinctio blanditiis, natus velit itaque excepturi porro fuga repellat alias a?
+                </p>
+                <div class="links">
+                    <a href="#"><i class="fa-solid fa-link"></i> Visit Site </a>
+                    <a href="#"><i class="fa-brans fa-github"></i> Visit Site </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="box">
+            <div class="imagen">
+                <img src="img/owl-ge373d1c5f_1280.jpg">
+            </div>
+            <div class="card-content">
+                <h2>Card title</h2>
+                <h3>Card subtitle</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa reiciendis autem numquam? Corporis, quia molestiae? Natus itaque asperiores explicabo! Distinctio blanditiis, natus velit itaque excepturi porro fuga repellat alias a?
+                </p>
+                <div class="links">
+                    <a href="#"><i class="fa-solid fa-link"></i> Visit Site </a>
+                    <a href="#"><i class="fa-brans fa-github"></i> Visit Site </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="box">
+            <div class="imagen">
+                <img src="img/owl-ge373d1c5f_1280.jpg">
+            </div>
+            <div class="card-content">
+                <h2>Card title</h2>
+                <h3>Card subtitle</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa reiciendis autem numquam? Corporis, quia molestiae? Natus itaque asperiores explicabo! Distinctio blanditiis, natus velit itaque excepturi porro fuga repellat alias a?
+                </p>
+                <div class="links">
+                    <a href="#"><i class="fa-solid fa-link"></i> Visit Site </a>
+                    <a href="#"><i class="fa-brans fa-github"></i> Visit Site </a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html> 
