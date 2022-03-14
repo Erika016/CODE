@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario1</title>
+    <script src="https://kit.fontawesome.com/f9265fe1bd.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+border: 0;
+}
+:root {
+box-sizing: border-box;
+}
+*,
+::before,
+::after {
+box-sizing: inherit;
+}
+:root {
+font-size: 0.785rem;
+font-family: "Rubik", sans-serif;
+--blue: #0d6efd;
+--indigo: #6610f2;
+--purple: #6f42c1;
+--pink: #d63384;
+--red: #dc3545;
+--orange: #fd7e14;
+--yellow: #ffc107;
+--green: #198754;
+--teal: #20c997;
+--cyan: #0dcaf0;
+--dark: #292a2b;
+}
+body {
+    background-color: gray;
+}
+h1 {
+    align-items: center;
+}
+.card {
+    width: 30%;
+    background-color: white;
+    margin: auto;
+}
+
+    </style>
+</head>
+<body>
+    <h1>Mejorando la presentacion</h1>
+    <div class="card">
+            <select class="meses" name="" id="">
+                <option value="ene">Ene</option>
+                <option value="feb">Feb</option>
+                <option value="mar">Mar</option>
+                <option value="abr">Abr</option>
+                <option value="May">May</option>
+            </select>
+            <select name="Year" id="">
+                <option value="2018">2018</option>
+                <option value="2019">2019</option>
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+                <option value="2023">2023</option>
+            </select>
+            <table>
+                <tr>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td>M</td>
+                    <td>T</td>
+                    <td>W</td>
+                    <td>T</td>
+                    <td>F</td>
+                    <td>S</td>
+                    <td>S</td>
+                </tr>
+                <tr>
+                    <td>27</td>
+                    <td>28</td>
+                    <td>29</td>
+                    <td>30</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td>12</td>
+                    <td>13</td>
+                    <td>14</td>
+                    <td>15</td>
+                    <td style="background-color: pink; color: red;">16</td>
+                    <td style="background-color: pink; color: red;">17</td>
+                </tr>
+                <tr class="festivos">
+                    <td style="background-color: pink; color: red;">18</td>
+                    <td style="background-color: pink; color: red;">19</td>
+                    <td style="background-color: pink; color: red;">20</td>
+                    <td class="dia" style="background-color: #d63384; color: white;">21</td>
+                    <td>22</td>
+                    <td>23</td>
+                    <td>24</td>
+                </tr>
+                <tr>
+                    <td>25</td>
+                    <td>26</td>
+                    <td>27</td>
+                    <td>28</td>
+                    <td>29</td>
+                    <td>30</td>
+                    <td>31</td>
+                </tr>
+           </table>
+           <div class="botones">
+            <button class="back">Back</button>
+            <button class="apply">Apply</button>
+        </div>
+</body>
+</html>
