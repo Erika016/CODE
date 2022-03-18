@@ -77,13 +77,15 @@ switch (character){
             case "Captain America":
                 power = "Indestructible shield";
                 break;
+                default:
+                    console.log("Thanos");
 
 
 }
 //  Check numbers
 let number =10;
 
-switch(number){
+switch(true){
     case number < 0:
         console.log("Under 0");
         break;
@@ -93,7 +95,11 @@ switch(number){
         case number >= 10 && number <=  20:
             console.log("Between 11 and 20");
             break;
-            
+            case number > 20:
+                connsole.log("Over 20");
+                break;
+                default:
+                    console.log("Out of range");
 
 }
 
